@@ -10,11 +10,12 @@ This repository contains the code and instructions for creating, dockerizing, de
 ## Table of Contents
 I wrote details blog explain things in more detailed way. please explore blog also.
 - [Prerequisites](#prerequisites)
-- [Part 1: Simple Python API Creation and Dockerization](#part-1-simple-python-api-creation-and-dockerization)
-- [Part 2: Setting Up Minikube Locally](#part-2-setting-up-minikube-locally)
-- [Part 3: Deploying and Scaling the API using Kubernetes](#part-3-deploying-and-scaling-the-api-using-kubernetes)
-- [Part 4: Testing the Kubernetes Setup](#part-4-testing-the-kubernetes-setup)
+- [Part 1: Simple Python API Creation and Dockerization](#part-1-simple-python-api-creation-and-dockerization) : <a href="https://medium.com/@vkmauryavk/python-api-scaling-with-kubernetes-dockerization-1-4-f961900336b3"> Blog link </a>
+- [Part 2: Setting Up Minikube Locally](#part-2-setting-up-minikube-locally) : <a href="https://medium.com/@vkmauryavk/python-api-scaling-with-kubernetes-minikube-setup-2-3-171161b7fac4"> Blog link </a>
+- [Part 3: Deploying and Scaling the API using Kubernetes](#part-3-deploying-and-scaling-the-api-using-kubernetes) : <a href="https://medium.com/@vkmauryavk/python-api-scaling-with-kubernetes-deployment-3-3-55990d30ea0e"> Blog link </a>
+- [Part 4: Testing the Kubernetes Setup](#part-4-testing-the-kubernetes-setup) : <a href="https://medium.com/@vkmauryavk/python-api-scaling-with-kubernetes-testing-4-4-90d1699d48ad"> Blog link </a>
 - [Useful Kubernetes Commands](#useful-kubernetes-commands)
+
 
 ## Prerequisites
 

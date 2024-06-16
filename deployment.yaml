@@ -1,0 +1,28 @@
+# kubectl apply -f deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-k8s-api  # Name of the deployment
+  namespace: python-api-namespace  # Namespace where the deployment will be created
+spec:
+  replicas: 1  # Number of pod replicas to start with
+  selector:
+    matchLabels:
+      app: python-k8s-api  # Label to identify the pods managed by this deployment
+  template:
+    metadata:
+      labels:
+        app: python-k8s-api  # Label applied to the pods
+    spec:
+      containers:
+      - name: python-k8s-api  # Name of the container
+        image: mldecode/python-k8s-api  # Docker image to use for the container
+        ports:
+        - containerPort: 5000  # Port on which the container listens
+        resources:
+          requests:
+            cpu: "100m"  # Set the CPU request
+            memory: "128Mi"  # Set the memory request
+          limits:
+            cpu: "500m"  # Set the CPU limit
+            memory: "256Mi"  # Set the memory limit
